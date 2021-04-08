@@ -1,13 +1,33 @@
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   display: flex;
 }
 
+/* h3 {
+  font-size: 2em;
+} */
+
+p {
+  font-size: 1.2em;
+}
+
+#start-button {
+  font-size: 1.3em;
+}
+
 .grid {
+  margin: 2em;
   display: flex;
   flex-wrap: wrap;
   width: 400px;
   height: 800px;
-  background-color: yellow;
+  background-color: rgb(37, 37, 37);
+  box-shadow: 4px 4px 2px 2px black;
 }
 
 .grid div {
@@ -21,12 +41,13 @@
 }
 
 .mini-grid {
-  margin-left: 3em;
+  margin: 2em;
   width: 80px;
   height: 80px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: rgb(37, 37, 37);
+  box-shadow: 2px 2px 1px 1px black;
 }
 
 .mini-grid div {
